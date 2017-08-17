@@ -14,14 +14,14 @@ Pod::Spec.new do |s|
 
   s.description  = "这是项目描述文件"
 
-  s.homepage     = "https://github.com/yhcoding/OneProj"
+  s.homepage     = "http://10.10.13.28/iOS/OneProj"
 
   s.license      = "Apache License 2.0"
   s.author             = { "yhcoo" => "yhcoding@163.com" }
 
   s.platform     = :ios, "7.0"
 
-  s.source       = { :git => "https://github.com/yhcoding/OneProj.git", :tag => "#{s.version}" }
+  s.source       = { :git => "http://10.10.13.28/iOS/OneProj.git", :tag => "#{s.version}" }
 
   s.source_files  = "Classes", "OneProj/**/*.{h,m}"
 
